@@ -1,0 +1,16 @@
+{
+  "Mappings": [
+    {
+      "Id": "test",
+      "Value": "it works :)",
+      "IsCodePoint": false,
+      "Description": "this is just a test"
+    },
+    {
+      "Id": "test-code-point",
+      "Value": "U+1D161",
+      "IsCodePoint": true,
+      "Description": "this is a unicode code point"
+    }
+  ]
+}
