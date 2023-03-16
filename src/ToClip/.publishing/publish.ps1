@@ -23,5 +23,3 @@ Compress-Archive -LiteralPath $output_dir\$osx_profile\ -DestinationPath $output
 Compress-Archive -LiteralPath $output_dir\$windows_profile\ -DestinationPath $output_dir\$windows_profile.zip
 
 Invoke-Item $output_dir
-
-Stop-Process -Id $PID
