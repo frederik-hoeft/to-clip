@@ -5,7 +5,7 @@ $osx_profile="osx-x64"
 $project="ToClip"
 
 if (!(Test-Path "variable:output_dir") -or !$output_dir) {
-	throw "output_dir was null or undefined!"
+    throw "output_dir was null or undefined!"
 }
 
 Remove-Item -Path $output_dir\* -Recurse
