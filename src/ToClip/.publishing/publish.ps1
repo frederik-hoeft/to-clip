@@ -4,7 +4,7 @@ $windows_profile="win-x64"
 $osx_profile="osx-x64"
 $project="ToClip"
 
-if ((-not (Test-Path "variable:output_dir")) -or !$output_dir) {
+if (!(Test-Path "variable:output_dir") -or !$output_dir) {
 	throw "output_dir was null or undefined!"
 }
 
