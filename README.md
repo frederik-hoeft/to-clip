@@ -1,5 +1,5 @@
 # to-clip
-Easily copy predefined values to your clipboard.
+Easily copy predefined values to your clipboard. Basically like keyboard macros, but for copying stuff to your clipboard instead.
 
 ---
 
