@@ -29,3 +29,5 @@ Assuming the defined mappings in `toclip.mappings.json` are:
 Executing `toclip test` will put `"it works :)"` into your clipboard. Similarly `toclip test-code-point` will yield `𝅘𝅥𝅯`.
 
 It is highly recommended to use this with PowerToys Run (with `toclip` in the PATH)
+
+The `Description` in the `toclip.mappings.json` mappings is optional.
