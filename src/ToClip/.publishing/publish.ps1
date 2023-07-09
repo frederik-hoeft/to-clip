@@ -1,4 +1,4 @@
-$output_dir="..\bin\Release\net6.0\publish"
+$output_dir="..\bin\Release\net7.0\publish"
 $linux_profile="linux-x64"
 $windows_profile="win-x64"
 $osx_profile="osx-x64"
